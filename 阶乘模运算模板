@@ -1,5 +1,5 @@
 const int MOD = 1e9+7;
-const int MX = 1; // 根据题目数据范围修改
+const int MX = 1; 
 
 long long F[MX]; // F[i] = i!
 long long INV_F[MX]; // INV_F[i] = i!^-1 = qpow(i!, MOD-2)
@@ -36,6 +36,6 @@ long long comb(int n, int m) {
 class Solution {
 public:
     int solve(vector<int>& nums) {
-        // 预处理的逻辑写在 class 外面，这样只会初始化一次
+        
     }
 };
