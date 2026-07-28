@@ -1,5 +1,5 @@
-const int MOD = 1'000'000'007;
-const int MX = 100'001; // 根据题目数据范围修改
+const int MOD = 1e9+7;
+const int MX = 1; // 根据题目数据范围修改
 
 long long F[MX]; // F[i] = i!
 long long INV_F[MX]; // INV_F[i] = i!^-1 = qpow(i!, MOD-2)
@@ -39,8 +39,3 @@ public:
         // 预处理的逻辑写在 class 外面，这样只会初始化一次
     }
 };
-
-作者：灵茶山艾府
-链接：https://leetcode.cn/discuss/post/mDfnkW/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
