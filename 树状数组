@@ -38,3 +38,12 @@ public:
         return pre(r) - pre(l - 1);
     }
 };
+
+
+
+//离散化
+        auto sorted = sum;
+        ranges::sort(sorted);
+        sorted.erase(ranges::unique(sorted).begin(), sorted.end());
+
+//
